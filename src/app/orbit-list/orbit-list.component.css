@@ -13,12 +13,16 @@ table {
   overflow: hidden;
   margin: 12px 0;
   min-width: 300px;
-  background: #dad8d8;
+  background: #e7e5e5;
 }
 
 .header-row {
-    background: #34495E;
+    background: rgb(13, 40, 66);
     color: #fff
+}
+
+tr:nth-child(even) {
+    background-color: mediumturquoise;
 }
 
 th, td {
